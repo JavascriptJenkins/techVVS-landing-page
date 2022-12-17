@@ -1,14 +1,14 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/pexels-olia-danilevich-4974914.jpg";
-import CV from "../../assets/Smith-Cv.pdf";
+// import CV from "../../assets/Smith-Cv.pdf";
 import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Us</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">Introduction</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -22,7 +22,7 @@ const About = () => {
             projects carried out.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          {/* <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               class="button__icon"
@@ -49,7 +49,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

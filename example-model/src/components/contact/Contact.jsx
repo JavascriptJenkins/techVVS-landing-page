@@ -25,7 +25,7 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to us</h3>
+          {/* <h3 className="contact__title">Talk to us</h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -69,7 +69,18 @@ const Contact = () => {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-          </div>
+          </div> */}
+          <iframe
+            width="100%"
+            height="100%"
+            title="map"
+            className="absolute inset-0"
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
+            style={{ filter: "opacity(0.7)" }}
+            src="https://www.google.com/maps/embed/v1/place?q=Bondesque,+West+Lake+Street,+Minneapolis,+MN,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+          />
         </div>
 
         <div className="contact__content">
