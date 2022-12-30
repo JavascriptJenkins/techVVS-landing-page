@@ -83,6 +83,7 @@ const Contact = () => {
           />
         </div>
 
+        {/*  This is where we will call the java server running on host 8080 */}
         <div className="contact__content">
           <h3 className="contact__title">Let us know how we can help!</h3>
 

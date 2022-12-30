@@ -8,7 +8,12 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Us</h2>
-      <span className="section__subtitle">Introduction</span>
+      <span className="section__subtitle">
+      We are a specialized technology company
+       based in Minneapolis, Minnesota CST.
+
+
+      </span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,9 +22,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            At TechVVS we provide custom software solutions to common enterprise software problems.  Our in house developer and analyst experts have extensive experience solving enterprise problems.
           </p>
 
           {/* <a download="" href={CV} className="button button--flex">
