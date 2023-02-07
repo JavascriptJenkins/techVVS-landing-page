@@ -1,24 +1,61 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { useState } from "react";
 import "./contact.css";
 
+
+
 const Contact = () => {
+
+    const name = {value: ''};
+    const email = {value: ''};
+      const project = {value: ''};
+      const message = {value: ''};
+
+
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
-        form.current,
-        "vxDcl4UI2jbOQBn6f"
-      )
-    e.target.reset()
-  };
+  // what is e?
+  let submitCustomerPipelineFormData = async (e) => {
+      e.preventDefault();
+      try {
+        let res = await fetch("http://localhost:8080/customer/pipeline", {
+          method: "POST",
+
+
+
+          body: JSON.stringify({
+            name:name,
+            email:email,
+            project:project
+            // name: name,
+            // email: email,
+            // project: project,
+          }),
+
+
+        });
+        let resJson = await res.json();
+        if (res.status === 200) {
+          alert("hey300")
+          // setName("");
+          // setEmail("");
+          // setMessage("User created successfully");
+        } else {
+          alert("bad")
+
+          // setMessage("Some error occured");
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    };
+
 
   return (
+
+
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
       <span className="section__subtitle">Contact Us</span>
@@ -87,7 +124,8 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Let us know how we can help!</h3>
 
-          <form ref={form} onSubmit={sendEmail} className="contact__form">
+{/*  this submits the contact form*/}
+          <form ref={form} onSubmit={submitCustomerPipelineFormData} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name/CORP</label>
               <input
@@ -95,6 +133,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                onChange={(e) => name.value = e.target.value}
               />
             </div>
 
@@ -103,6 +142,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
+                onChange={(e) => email.value = e.target.value}
                 className="contact__form-input"
                 placeholder="Insert your email"
               />
@@ -112,6 +152,8 @@ const Contact = () => {
               <label className="contact__form-tag">Proposal</label>
               <textarea
                 name="project"
+                // this onChange is the thing that binds the data to json object to be sent
+                onChange={(e) => project.value = e.target.value}
                 cols="30"
                 rows="10"
                 className="contact__form-input"

@@ -77,9 +77,16 @@ curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o inst
 bash install_nvm.sh
 
 
+TO RUN THE APP:
+1)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # _This loads nvm_
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+2)
+npm run start --max-old-space-size=8192
+
+
 
 
 ## How to kill node apps running on ports (or any app)
