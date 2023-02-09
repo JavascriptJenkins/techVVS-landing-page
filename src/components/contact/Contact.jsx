@@ -20,11 +20,8 @@ const Contact = () => {
   let submitCustomerPipelineFormData = async (e) => {
       e.preventDefault();
       try {
-      var headers = { 'Content-Type': 'application/json' }
         let res = await fetch("https://techvvs.io/customer/pipeline", {
           method: "POST",
-          mode: 'cors',
-          headers: headers,
           body: JSON.stringify({
             name:name,
             email:email,
