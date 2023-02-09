@@ -24,7 +24,7 @@ const Contact = () => {
         let res = await fetch("https://techvvs.io/customer/pipeline", {
           method: "POST",
           mode: 'cors',
-          headers: headers
+          headers: headers,
           body: JSON.stringify({
             name:name,
             email:email,
