@@ -20,11 +20,11 @@ const Contact = () => {
   let submitCustomerPipelineFormData = async (e) => {
       e.preventDefault();
       try {
+      var headers = { 'Content-Type': 'application/json' }
         let res = await fetch("https://techvvs.io/customer/pipeline", {
           method: "POST",
-
-
-
+          mode: 'cors',
+          headers: headers
           body: JSON.stringify({
             name:name,
             email:email,
@@ -36,7 +36,10 @@ const Contact = () => {
 
 
         });
+        console.log("res: "+res);
         let resJson = await res.json();
+
+        console.log("resJson: " +resJson)
         if (res.status === 200) {
           alert("Thank you for contacting TechVVS!")
           // setName("");
