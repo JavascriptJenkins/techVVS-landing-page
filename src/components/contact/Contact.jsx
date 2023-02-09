@@ -38,12 +38,12 @@ const Contact = () => {
         });
         let resJson = await res.json();
         if (res.status === 200) {
-          alert("hey300")
+          alert("Thank you for contacting TechVVS!")
           // setName("");
           // setEmail("");
           // setMessage("User created successfully");
         } else {
-          alert("bad")
+          alert("error")
 
           // setMessage("Some error occured");
         }

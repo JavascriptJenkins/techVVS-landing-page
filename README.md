@@ -97,3 +97,6 @@ kill -9 PID
 add this back to app.js to show these 2 sections (work is actually portfolio component)
 //      <Work />
 //      <Testimonials />
+
+
+Use version 15 of node
