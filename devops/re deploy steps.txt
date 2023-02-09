@@ -4,7 +4,7 @@ kill the existing deployment with the commands below
 verify the site is down by going to https://techvvs.io
 
 lsof -i tcp:3000
-kill -9 PID <pid>
+kill -9 <pid>
 
 then run ./redeploy script
 

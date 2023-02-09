@@ -20,7 +20,7 @@ const Contact = () => {
   let submitCustomerPipelineFormData = async (e) => {
       e.preventDefault();
       try {
-        let res = await fetch("http://localhost:8080/customer/pipeline", {
+        let res = await fetch("https://techvvs.io/customer/pipeline", {
           method: "POST",
 
 
