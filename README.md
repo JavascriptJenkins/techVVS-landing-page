@@ -100,3 +100,26 @@ add this back to app.js to show these 2 sections (work is actually portfolio com
 
 
 Use version 15 of node
+
+
+
+
+testing api calls
+
+curl --header "Content-Type: application/json" \
+--request POST \
+--data '{"username":"xyz","password":"xyz"}' \
+http://localhost:3000/api/login
+
+
+curl --header "Content-Type: application/json" \
+--request POST \
+--data '{"name":{"value":"fff"},"email":{"value":"unwoundcracker@gmail.com"},"project":{"value":"ddddd"}}' \
+https://techvvs.io/customer/pipeline
+
+curl --header "Content-Type: application/json" \
+--request POST \
+--data '{"name":{"value":"fff"},"email":{"value":"unwoundcracker@gmail.com"},"project":{"value":"ddddd"}}' \
+http://localhost:8080/customer/pipeline
+
+{"name":{"value":"fff"},"email":{"value":"unwoundcracker@gmail.com"},"project":{"value":"ddddd"}}
