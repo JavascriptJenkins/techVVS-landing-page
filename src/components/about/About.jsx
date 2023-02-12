@@ -9,8 +9,8 @@ const About = () => {
     <section className="about section" id="about">
       <h2 className="section__title">About Us</h2>
       <span className="section__subtitle">
-      We are a specialized technology company
-       based in Minneapolis, Minnesota CST.
+        We are a specialized technology company
+        based in Minneapolis, Minnesota CST.
 
 
       </span>
