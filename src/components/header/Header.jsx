@@ -55,7 +55,7 @@ const Header = () => {
                   activeNav === "#dev" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-user nav__icon"></i> Our Devs
+                <i className="uil uil-user nav__icon"></i> Developers
               </a>
             </li>
 

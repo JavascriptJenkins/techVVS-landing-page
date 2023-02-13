@@ -45,7 +45,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Odin Russell</h3>
+              <h3 className="dev__modal-title">Odin</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies generating requirements and technical documentation.
               </p>
@@ -88,16 +88,16 @@ const Dev = () => {
           </div>
         </div>
 
-        <div className="dev__content">
-          <div>
+        <div className="dev__content dev__veerav">
+          {/* <div>
             <i className="uil uil-arrow dev__icon"></i>
             <h3 className="dev__title">
               Ui/Ux <br /> Designer
             </h3>
-          </div>
+          </div> */}
 
           <span onClick={() => toggleTab(2)} className="dev__button">
-            View More
+            <Hand />
             <i className="uil uil-arrow-right dev__button-icon"></i>
           </span>
 
@@ -114,7 +114,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Ui/Ux Designer</h3>
+              <h3 className="dev__modal-title">Veerav</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies to design functional and accessible UI/Ux.
               </p>
@@ -157,16 +157,16 @@ const Dev = () => {
           </div>
         </div>
 
-        <div className="dev__content">
-          <div>
+        <div className="dev__content dev__toby">
+          {/* <div>
             <i className="uil uil-edit dev__icon"></i>
             <h3 className="dev__title">
               Software <br /> Engineering
             </h3>
-          </div>
+          </div> */}
 
           <span onClick={() => toggleTab(3)} className="dev__button">
-            View More
+            <Hand />
             <i className="uil uil-arrow-right dev__button-icon"></i>
           </span>
 
@@ -183,7 +183,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Software Engineering</h3>
+              <h3 className="dev__modal-title">Toby</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies to deliver secure and functional software.
               </p>
