@@ -30,7 +30,7 @@ const Contact = () => {
                                     // project: project,
                                   }));
 
-        let res = await fetch("https://techvvs.io:443/customer/pipeline", {
+        let res = await fetch("https://techvvs.io/customer/pipeline", {
           method: "POST",
           mode: 'cors', // no-cors, *cors, same-origin
             headers: {
