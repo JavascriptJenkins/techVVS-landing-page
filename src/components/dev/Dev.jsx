@@ -16,16 +16,14 @@ const Dev = () => {
       <span className="section__subtitle">Find out about us!</span>
 
       <div className="dev__container container grid">
-        <div className="dev__content dev__odin">
+
+        {/* DEVELOPER 1 */}
+
+        <div className="dev__content dev__peter">
           <div>
             <i className="uil uil-web-grid dev__icon"></i>
-            {/* <i className="bx bxl-react dev__icon"></i> */}
-            {/* React Boxicon img */}
-
-
-
             <h3 className="dev__title">
-              Product <br /> Designer
+              Technical <br /> Director
             </h3>
           </div>
 
@@ -48,7 +46,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Odin</h3>
+              <h3 className="dev__modal-title">Peter</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies generating requirements and technical documentation.
               </p>
@@ -91,7 +89,7 @@ const Dev = () => {
           </div>
         </div>
 
-        {/* DEVELOPER */}
+        {/* DEVELOPER 2 */}
 
         <div className="dev__content dev__veerav">
           <div>
@@ -162,7 +160,7 @@ const Dev = () => {
           </div>
         </div>
 
-        {/* DEVELOPER */}
+        {/* DEVELOPER 3 */}
 
         <div className="dev__content dev__toby">
           <div>
@@ -233,17 +231,21 @@ const Dev = () => {
           </div>
         </div>
 
-        {/* DEVELOPER */}
+        {/* DEVELOPER 4 */}
 
-        <div className="dev__content dev__peter">
+        <div className="dev__content dev__odin">
           <div>
+
+            {/* React Boxicon img */}
+            {/* <i className="bx bxl-react dev__icon"></i> */}
+
             <i className="uil uil-web-grid dev__icon"></i>
             <h3 className="dev__title">
-              Technical <br /> Director
+              Product <br /> Designer
             </h3>
           </div>
 
-          <span className="dev__button" onClick={() => toggleTab(1)}>
+          <span className="dev__button" onClick={() => toggleTab(4)}>
             <Hand />
             <i className="uil uil-arrow-right dev__button-icon"></i>
           </span>
@@ -251,7 +253,7 @@ const Dev = () => {
 
           <div
             className={
-              toggleState === 1
+              toggleState === 4
                 ? "dev__modal active-modal"
                 : "dev__modal"
             }
@@ -305,7 +307,7 @@ const Dev = () => {
           </div>
         </div>
 
-        {/* DEVELOPER */}
+        {/* DEVELOPER 5 */}
 
         <div className="dev__content dev__isaac">
           <div>
@@ -315,14 +317,14 @@ const Dev = () => {
             </h3>
           </div>
 
-          <span onClick={() => toggleTab(2)} className="dev__button">
+          <span onClick={() => toggleTab(5)} className="dev__button">
             <Hand />
             <i className="uil uil-arrow-right dev__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 2
+              toggleState === 5
                 ? "dev__modal active-modal"
                 : "dev__modal"
             }
@@ -333,7 +335,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Veerav</h3>
+              <h3 className="dev__modal-title">Isaac</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies to design functional and accessible UI/Ux.
               </p>
@@ -376,7 +378,7 @@ const Dev = () => {
           </div>
         </div>
 
-        {/* DEVELOPER */}
+        {/* DEVELOPER 6 */}
 
         <div className="dev__content dev__adam">
           <div>
@@ -386,14 +388,14 @@ const Dev = () => {
             </h3>
           </div>
 
-          <span onClick={() => toggleTab(3)} className="dev__button">
+          <span onClick={() => toggleTab(6)} className="dev__button">
             <Hand />
             <i className="uil uil-arrow-right dev__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 3
+              toggleState === 6
                 ? "dev__modal active-modal"
                 : "dev__modal"
             }
@@ -404,7 +406,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Toby</h3>
+              <h3 className="dev__modal-title">Adam</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies to deliver secure and functional software.
               </p>
@@ -447,7 +449,7 @@ const Dev = () => {
           </div>
         </div>
 
-        {/* DEVELOPER */}
+        {/* DEVELOPER 7 */}
 
         <div className="dev__content dev__joeBoat">
           <div>
@@ -457,14 +459,14 @@ const Dev = () => {
             </h3>
           </div>
 
-          <span onClick={() => toggleTab(3)} className="dev__button">
+          <span onClick={() => toggleTab(7)} className="dev__button">
             <Hand />
             <i className="uil uil-arrow-right dev__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 3
+              toggleState === 7
                 ? "dev__modal active-modal"
                 : "dev__modal"
             }
@@ -475,7 +477,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Toby</h3>
+              <h3 className="dev__modal-title">Joe</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies to deliver secure and functional software.
               </p>
@@ -518,7 +520,7 @@ const Dev = () => {
           </div>
         </div>
 
-        {/* DEVELOPER */}
+        {/* DEVELOPER 8 */}
 
         <div className="dev__content dev__joeMiami">
           <div>
@@ -528,14 +530,14 @@ const Dev = () => {
             </h3>
           </div>
 
-          <span onClick={() => toggleTab(3)} className="dev__button">
+          <span onClick={() => toggleTab(8)} className="dev__button">
             <Hand />
             <i className="uil uil-arrow-right dev__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 3
+              toggleState === 8
                 ? "dev__modal active-modal"
                 : "dev__modal"
             }
@@ -546,7 +548,7 @@ const Dev = () => {
                 className="uil uil-times dev__modal-close"
               ></i>
 
-              <h3 className="dev__modal-title">Toby</h3>
+              <h3 className="dev__modal-title">Joe A.</h3>
               <p className="dev__modal-description">
                 Providing quality work to clients and companies to deliver secure and functional software.
               </p>
