@@ -23,7 +23,7 @@ const Dev = () => {
           <div>
             <i className="uil uil-web-grid dev__icon"></i>
             <h3 className="dev__title">
-              Technical <br /> Director
+              CTO <br /> Principal Architecture
             </h3>
           </div>
 
@@ -173,7 +173,7 @@ const Dev = () => {
 
             <i className="uil uil-edit dev__icon"></i>
             <h3 className="dev__title">
-              CTO <br /> Principal Architecture
+              UI/UX <br /> React
             </h3>
           </div>
 
@@ -316,7 +316,7 @@ const Dev = () => {
           <div>
             <i className="uil uil-arrow dev__icon"></i>
             <h3 className="dev__title">
-              Ui/Ux <br /> Designer
+              Data <br /> Expert
             </h3>
           </div>
 
