@@ -17,14 +17,17 @@ const Dev = () => {
 
       <div className="dev__container container grid">
         <div className="dev__content dev__odin">
-          {/* <div>
+          <div>
             <i className="uil uil-web-grid dev__icon"></i>
+            {/* <i className="bx bxl-react dev__icon"></i> */}
+            {/* React Boxicon img */}
+
 
 
             <h3 className="dev__title">
               Product <br /> Designer
             </h3>
-          </div> */}
+          </div>
 
           <span className="dev__button" onClick={() => toggleTab(1)}>
             <Hand />
