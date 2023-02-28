@@ -9,3 +9,5 @@ kill -9 <pid>
 then run ./redeploy script
 
 this will pull the main branch and deploy it
+
+sudo systemctl stop nginx

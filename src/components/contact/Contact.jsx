@@ -30,16 +30,20 @@ const Contact = () => {
                                     // project: project,
                                   }));
 
-        let res = await fetch("https://services.techvvs.io/customer/pipeline", {
+        let res = await fetch("https://techvvs.io/customer/pipeline", {
           method: "POST",
-         // mode: 'cors', // no-cors, *cors, same-origin
+          mode: 'cors', // no-cors, *cors, same-origin
             headers: {
                 'Content-Type': 'application/json'
+                // 'Content-Type': 'application/x-www-form-urlencoded',
             },
           body: JSON.stringify({
             name:name,
             email:email,
             project:project
+            // name: name,
+            // email: email,
+            // project: project,
           }),
 
 
