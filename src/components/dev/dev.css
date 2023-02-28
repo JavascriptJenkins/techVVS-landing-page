@@ -31,8 +31,6 @@
     background-position: center;
     background-size: cover;
     border-radius: 1.5rem;
-    /* width: 270px;
-    height: 268px; */
 }
 
 .dev__toby {
@@ -41,8 +39,47 @@
     background-position: center;
     background-size: cover;
     border-radius: 1.5rem;
-    /* width: 270px;
-    height: 268px; */
+}
+
+
+.dev__peter {
+    background: url(../../assets//petertechvvs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+.dev__isaac {
+    background: url(../../assets//isaac-dev.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+.dev__adam {
+    background: url(../../assets//adam-dev.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+.dev__joeBoat {
+    background: url(../../assets//joe-boat-dev.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+.dev__joeMiami {
+    background: url(../../assets//joe-miami-dev.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
 }
 
 .dev__icon {
@@ -107,10 +144,6 @@
     width: 500px;
     position: relative;
     background-color: var(--container-color);
-    /* background: url(../../assets//odin-dev.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
 }
