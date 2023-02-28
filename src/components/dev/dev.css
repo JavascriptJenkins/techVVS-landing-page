@@ -1,4 +1,11 @@
-.dev__container {
+.dev__container__1 {
+    grid-template-columns: repeat(2, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+
+.dev__container__2 {
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
     column-gap: 1.8rem;
@@ -202,7 +209,11 @@
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-    .dev__container {
+    .dev__container__1 {
+        grid-template-columns: repeat(2, 218px);
+    }
+
+    .dev__container__2 {
         grid-template-columns: repeat(3, 218px);
     }
 
@@ -213,7 +224,9 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-    .dev__container {
+
+    .dev__container__1,
+    .dev__container__2 {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -238,7 +251,9 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    .dev__container {
+
+    .dev__container__1,
+    .dev__container__2 {
         grid-template-columns: max-content;
     }
 
