@@ -7,3 +7,7 @@ The -u switch makes the remote GitHub repo the default for your existing project
 
 
 -https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub#:~:text=Simply%20issue%20a%20git%20push
+
+
+
+npm run start --max-old-space-size=8192
