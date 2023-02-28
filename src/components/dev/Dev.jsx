@@ -166,7 +166,7 @@ const Dev = () => {
           <div>
             <i className="uil uil-edit dev__icon"></i>
             <h3 className="dev__title">
-              Software <br /> Engineering
+              CTO <br /> Principal Architecture
             </h3>
           </div>
 
