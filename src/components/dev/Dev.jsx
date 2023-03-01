@@ -593,8 +593,83 @@ const Dev = () => {
             </div>
           </div>
         </div>
-
       </div>
+
+      <div className="dev__container__3 container grid">
+
+        {/* DEVELOPER 9 */}
+
+        <div className="dev__content dev__ryan">
+          <div>
+            <i className="uil uil-web-grid dev__icon"></i>
+            <h3 className="dev__title">
+              Director of <br /> Sales
+            </h3>
+          </div>
+
+          <span className="dev__button" onClick={() => toggleTab(9)}>
+            <Hand />
+            <i className="uil uil-arrow-right dev__button-icon"></i>
+          </span>
+
+
+          <div
+            className={
+              toggleState === 9
+                ? "dev__modal active-modal"
+                : "dev__modal"
+            }
+          >
+            <div className="dev__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times dev__modal-close"
+              ></i>
+
+              <h3 className="dev__modal-title">Ryan</h3>
+              <p className="dev__modal-description">
+                Providing quality work to clients and companies generating requirements and technical documentation.
+              </p>
+
+              <ul className="dev__modal-dev grid">
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    We develop the user interface.
+                  </p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">Web page development.</p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    We create ux element interactions.
+                  </p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    We position your company brand.
+                  </p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    Design and mockups of software products for companies.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section >
   );
 };
