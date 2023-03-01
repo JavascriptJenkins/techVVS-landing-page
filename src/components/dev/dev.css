@@ -11,6 +11,13 @@
     column-gap: 1.8rem;
 }
 
+.dev__container__3 {
+    grid-template-columns: repeat(1, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+    padding-top: 1.8rem;
+}
+
 .dev__content {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -88,6 +95,16 @@
     background-size: cover;
     border-radius: 1.5rem;
 }
+
+.dev__ryan {
+    background: url(../../assets//ryan-dev.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+
 
 .dev__icon {
     display: block;
