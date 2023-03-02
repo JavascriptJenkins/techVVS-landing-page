@@ -12,6 +12,12 @@ const About = () => {
         We are a specialized technology company
         based in Minneapolis, Minnesota CST.
 
+          <br/>
+          <br/>
+
+          Security, Critical Vulnerability
+        Scanning, and Unit Testing are our main specializations.
+
 
       </span>
 

@@ -62,6 +62,47 @@ const Backend = () => {
               <span className="skills__level">Advanced</span>
             </div>
           </div>
+            <div className="skills__data">
+              <i class="bx bx-badge-check"></i>
+
+              <div>
+                <h3 className="skills__name">Kafka</h3>
+                <span className="skills__level">Advanced</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <i class="bx bx-badge-check"></i>
+
+              <div>
+                <h3 className="skills__name">Amazon Web Services</h3>
+                <span className="skills__level">Advanced</span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <i class="bx bx-badge-check"></i>
+
+              <div>
+                <h3 className="skills__name">Containerization</h3>
+                <span className="skills__level">Advanced</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <i class="bx bx-badge-check"></i>
+
+              <div>
+                <h3 className="skills__name">Kubernetes</h3>
+                <span className="skills__level">Advanced</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <i class="bx bx-badge-check"></i>
+
+              <div>
+                <h3 className="skills__name">Cassandra</h3>
+                <span className="skills__level">Advanced</span>
+              </div>
+            </div>
         </div>
       </div>
     </div>
