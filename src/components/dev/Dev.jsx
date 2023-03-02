@@ -652,13 +652,6 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Ryan is as knowledgeable as he is personable.
-                  </p>
-                </li>
-
-                <li className="dev__modal-service">
-                  <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">
                     Get to the root of the technical issue and apply the correct solution.
                   </p>
                 </li>
