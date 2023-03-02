@@ -12,14 +12,16 @@ const About = () => {
         We are a specialized technology company
         based in Minneapolis, Minnesota CST.
 
-          <br/>
-          <br/>
-
-          Security, Critical Vulnerability
-        Scanning, and Unit Testing are our main specializations.
 
 
       </span>
+
+    <span className="section__subtitle">
+
+        Security, Critical Vulnerability <br/>
+        Scanning, and Unit Testing are <br/>
+        our main specializations.
+    </span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
