@@ -48,40 +48,40 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Toby</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies generating requirements and technical documentation.
+                Toby has been working with major companies for 25+ years.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We develop the user interface.
+                    In his free time, he enjoys playing classical music and designing board games.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">Web page development.</p>
+                  <p className="dev__modal-info">25+ years specializing in java.</p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="dev__modal-service">
-                  <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">
-                    We position your company brand.
+                    Expert in budgeting and solutioning enterprise technical issues.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Design and mockups of software products for companies.
+                    Toby has managed more teams and projects than he can remember.
+                  </p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    Toby is an expert creating custom solutions to broad cross-team enterprise issues.
                   </p>
                 </li>
               </ul>
@@ -119,40 +119,40 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Peter</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies to design functional and accessible UI/Ux.
+                Peter McMahon has been involved with technology solutions since a young age.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We develop the user interface.
+                    In his free time, Peter enjoys hiking and bicycling.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">Web page development.</p>
+                  <p className="dev__modal-info">Full stack development solutions.</p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="dev__modal-service">
-                  <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">
-                    We position your company brand.
+                    Expert in project management, server cost estimation, cloud infrastructure, security.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Design and mockups of products for companies.
+                    Data protection compliance.  Healthcare/Finance/Government sector specialization.
+                  </p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    10+ years specializing in java.
                   </p>
                 </li>
               </ul>
@@ -197,14 +197,14 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Odin</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies to deliver secure and functional software.
+                Odin has been a UI/UX specialist for 3+ years.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Backend or frontend development.  Specialized Integrations.
+                    In his spare time, Odin enjoys walking his Pomeranian.
                   </p>
                 </li>
 
@@ -216,21 +216,21 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Unit Testing Coverage
+                    UI/UX Wireframe/Mockups
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Security vulnerability scanning and resolving.  Stay secure and compliant.
+                    Front end integrations.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Software Architecture Services.  We can design and diagnose existing issues with your Software Architecture.
+                    Custom mobile UI/UX development.
                   </p>
                 </li>
               </ul>
@@ -269,40 +269,40 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Adam</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies generating requirements and technical documentation.
+                Adam is an expert coder and product owner.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We develop the user interface.
+                    In his free time, Adam enjoys playing with his golden retriever at parks in Seattle.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">Web page development.</p>
+                  <p className="dev__modal-info">Java Specialist 10+ years.</p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="dev__modal-service">
-                  <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">
-                    We position your company brand.
+                    Adam has excellent communication skills along with excellent technical skills.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Design and mockups of software products for companies.
+                    Adam can work with you to design your technical product vision.
+                  </p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    Has been working in the Seattle area 5+ years in demanding roles.
                   </p>
                 </li>
               </ul>
@@ -340,40 +340,40 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Joe</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies to design functional and accessible UI/Ux.
+                Joe is an expert in a variety of data analysis tools.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We develop the user interface.
+                    In his spare time, Joe enjoys ice fishing and outdoor activities.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">Web page development.</p>
+                  <p className="dev__modal-info">Generate custom data reports.</p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="dev__modal-service">
-                  <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">
-                    We position your company brand.
+                    Analyze data looking for trends.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Design and mockups of products for companies.
+                    Organize and re-structure data.
+                  </p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">
+                    Database design expert.
                   </p>
                 </li>
               </ul>
@@ -411,14 +411,14 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Joe A.</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies to deliver secure and functional software.
+                Joe A. has been working as a full stack dev java specialist for 8+ years with enterprise clients.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Backend or frontend development.  Specialized Integrations.
+                    In his free time, Joe A. enjoys walking his dog with his fiance in Miami.
                   </p>
                 </li>
 
@@ -430,7 +430,7 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Unit Testing Coverage
+                    Backend or frontend development.  Specialized Integrations.
                   </p>
                 </li>
 
@@ -444,7 +444,7 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Software Architecture Services.  We can design and diagnose existing issues with your Software Architecture.
+                    Software Architecture Services.  Pipeline maintenance/design
                   </p>
                 </li>
               </ul>
@@ -482,14 +482,14 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Veerav</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies to deliver secure and functional software.
+                Veerav has been providing quality software work to enterprise clients for 10+ years.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Backend or frontend development.  Specialized Integrations.
+                    In his free time, Veerav enjoys going to new restaurants.
                   </p>
                 </li>
 
@@ -501,7 +501,7 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Unit Testing Coverage
+                    Backend or frontend development.  Specialized Integrations.
                   </p>
                 </li>
 
@@ -515,7 +515,7 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Software Architecture Services.  We can design and diagnose existing issues with your Software Architecture.
+                    Java specialist, server maintenance, SRE.
                   </p>
                 </li>
               </ul>
@@ -553,14 +553,14 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Isaac</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies to deliver secure and functional software.
+                Isaac is a QA/Developer Specialist.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Backend or frontend development.  Specialized Integrations.
+                    In his spare time, Isaac enjoys thrift store shopping and hiking in Los Angelos.
                   </p>
                 </li>
 
@@ -572,7 +572,7 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Unit Testing Coverage
+                    Backend or frontend development.  Specialized Integrations.
                   </p>
                 </li>
 
@@ -586,7 +586,7 @@ const Dev = () => {
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Software Architecture Services.  We can design and diagnose existing issues with your Software Architecture.
+                    Smoke testing, automation, REST api testing.
                   </p>
                 </li>
               </ul>
@@ -628,42 +628,41 @@ const Dev = () => {
 
               <h3 className="dev__modal-title">Ryan</h3>
               <p className="dev__modal-description">
-                Providing quality work to clients and companies generating requirements and technical documentation.
+                Ryan is the point of contact for sales.
               </p>
 
               <ul className="dev__modal-dev grid">
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We develop the user interface.
+                    Ryan is as knowledgeable as he is personable.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">Web page development.</p>
+                  <p className="dev__modal-info">In his free time, Ryan enjoys listening to live music in Portland OR.</p>
+                </li>
+
+                <li className="dev__modal-service">
+                  <i className="uil uil-check-circle dev__modal-icon"></i>
+                  <p className="dev__modal-info">Find out what technical product will solve your problem.</p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    We create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="dev__modal-service">
-                  <i className="uil uil-check-circle dev__modal-icon"></i>
-                  <p className="dev__modal-info">
-                    We position your company brand.
+                    Ryan is as knowledgeable as he is personable.
                   </p>
                 </li>
 
                 <li className="dev__modal-service">
                   <i className="uil uil-check-circle dev__modal-icon"></i>
                   <p className="dev__modal-info">
-                    Design and mockups of software products for companies.
+                    Get to the root of the technical issue and apply the correct solution.
                   </p>
                 </li>
+
               </ul>
             </div>
           </div>
