@@ -12,7 +12,7 @@ const Dev = () => {
 
   return (
     <section className="dev section" id="dev">
-      <h2 className="section__title">Meet our developers</h2>
+      <h2 className="section__title">Meet our Team</h2>
       <span className="section__subtitle">Find out about us!</span>
 
       <div className="dev__container__1 container grid">
